@@ -162,7 +162,7 @@ El portafolio fue desarrollado con:
 - **HTML5** — Estructura semántica
 - **CSS3** — Estilos y diseño visual
 - **Flexbox & Grid** — Diseño responsive
-- **JavasScript** — Se usu unicamente para animacion responsiva del menu de navegacion
+- **JavasScript** — Se uso unicamente para animacion responsiva del menu de navegacion
 - **Buenas prácticas** de accesibilidad y organización de código
 
 ---
@@ -172,7 +172,7 @@ El portafolio fue desarrollado con:
 | Recurso            | Enlace                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------- |
 | 🎨 Prototipo Figma | [Ver diseño](https://www.figma.com/make/fwX4m13tRcHP6I5qdoA2D1/CV-de-Ingeniero-DevOps?t=a5jzhnrg8cRP8HNl-1) |
-| 🌐 Sitio publicado | [Ver en GitHub Pages](https://tuusuario.github.io/portfolio)                                                |
+| 🌐 Sitio publicado | [Ver en GitHub Pages]([https://tuusuario.github.io/portfolio](https://haroldhf.github.io/Portafolio-Web/))                                                |
 
 ---
 
