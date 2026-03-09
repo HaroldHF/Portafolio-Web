@@ -172,7 +172,7 @@ El portafolio fue desarrollado con:
 | Recurso            | Enlace                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------- |
 | 🎨 Prototipo Figma | [Ver diseño](https://www.figma.com/make/fwX4m13tRcHP6I5qdoA2D1/CV-de-Ingeniero-DevOps?t=a5jzhnrg8cRP8HNl-1) |
-| 🌐 Sitio publicado | [Ver en GitHub Pages]([https://tuusuario.github.io/portfolio](https://haroldhf.github.io/Portafolio-Web/))                                                |
+| 🌐 Sitio publicado | [Ver en GitHub Pages]([https://tuusuario.github.io/portfolio](https://haroldhf.github.io/Portafolio-Web))                                                |
 
 ---
 
