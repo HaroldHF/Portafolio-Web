@@ -1,9 +1,491 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
+  <!-- Cambié a "es" si tu texto es en español -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Harold Herrera" />
+    <meta
+      name="keywords"
+      content="DevOps, Kubernetes, Cloud Engineer, AWS, CI/CD, Infrastructure as Code"
+    />
+    <link rel="icon" href="favicon.ico" />
+    <title>Harold Herrera |Cloud Platform & AI Infrastructure Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="nav-wrapper">
+        <span class="nav-brand"></span>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav id="mainNav">
+          <a href="#hero">Inicio</a>
+          <a href="#about">Filosofía</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#experience">Trayectoria</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <img src="img/yo.avif" alt="Foto de Harold Herrera" id="yo" />
+        <div class="hero-text">
+          <h1>Harold Herrera</h1>
+          <h2>Cloud Platform & AI Infrastructure Engineer</h2>
+          <p>
+            Ingeniero DevOps apasionado por la automatización de procesos
+            mediante Inteligencia Artificial. Con más de 5 años de experiencia
+            transformando operaciones complejas en sistemas eficientes y
+            escalables.
+          </p>
+          <p>
+            Especializado en CI/CD, infraestructura como código, y la
+            integración de soluciones de IA para optimizar flujos de trabajo en
+            entornos cloud-native.
+          </p>
+          <div class="hero-links">
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+              Github
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              Linkedin
+            </a>
+            <a href="prueba@.com" rel="noopener noreferrer">
+              <i class="fa-solid fa-envelope"></i>
+              Email
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h2>Filosofía de Ingeniería</h2>
+        <p>
+          Mi enfoque en la ingeniería de sistemas se basa en tres pilares
+          fundamentales para entornos de alto rendimiento:
+        </p>
+
+        <div class="philosophy-grid">
+          <article>
+            <h4>Automatización como Cultura</h4>
+            <p>
+              Creo firmemente que si una tarea se hace dos veces manualmente,
+              debe automatizarse la tercera. Busco la eficiencia en cada
+              pipeline.
+            </p>
+          </article>
+          <article>
+            <h4>Resiliencia por Diseño</h4>
+            <p>
+              Construyo sistemas pensando en el fallo. Mi objetivo es garantizar
+              la disponibilidad continua incluso bajo condiciones de carga
+              impredecibles.
+            </p>
+          </article>
+          <article>
+            <h4>Evolución hacia AIOps</h4>
+            <p>
+              Integro la inteligencia artificial no como un fin, sino como una
+              herramienta para monitorear, predecir y auto-reparar
+              infraestructuras críticas.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Tecnologías y Skills</h2>
+        <h3>Infraestructura y Automatización de Alto Nivel</h3>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <i class="fa-solid fa-cube"></i>
+            <h4>Docker & Kubernetes</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-cloud"></i>
+            <h4>AWS / Azure / GCP</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-gears"></i>
+            <h4>Terraform / Ansible</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-code-branch"></i>
+            <h4>GitHub Actions / Jenkins</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>Prometheus / Grafana</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-rocket"></i>
+            <h4>ArgoCD / GitOps</h4>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h4>PostgreSQL / MongoDB</h4>
+          </article>
+          <article class="skill-card">
+            <i class="fa-solid fa-terminal"></i>
+            <h4>Python / Bash</h4>
+          </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img
+              src="img/zero-downtime-ai-infra.avif"
+              alt="Infraestructura Zero-Downtime para IA"
+            />
+            <h3>Infraestructura Zero-Downtime para IA</h3>
+
+            <p>
+              Arquitectura cloud en Kubernetes diseñada para despliegue continuo
+              de modelos de Machine Learning con alta disponibilidad.
+            </p>
+
+            <div class="project-tech">
+              <span>AWS EKS</span>
+              <span>ArgoCD</span>
+              <span>Python</span>
+            </div>
+
+            <p class="project-result">
+              Automatización completa del pipeline de despliegue de modelos ML.
+            </p>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+
+                GitHub</a
+              >
+              <a href="#"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="img/edge-security-optimization.avif"
+              alt="Seguridad Perimetral y Optimización en el Edge"
+            />
+            <h3>Seguridad Perimetral y Optimización en el Edge</h3>
+
+            <p>
+              Implementación de controles de seguridad (WAF/TLS) y balanceo de
+              carga para sistemas de alto tráfico.
+            </p>
+
+            <div class="project-tech">
+              <span>Terraform</span>
+              <span>HAProxy</span>
+              <span>GCP</span>
+            </div>
+
+            <p class="project-result">
+              Reducción de latencia y protección contra ataques DDoS en tiempo
+              real.
+            </p>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+
+                GitHub</a
+              >
+              <a href="#"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="img/data-governance-devsecops.avif"
+              alt="Gobierno de Datos y Automatización DevSecOps"
+            />
+            <h3>Gobierno de Datos y Automatización DevSecOps</h3>
+
+            <p>
+              Configuración de pipelines CI/CD con escaneo automático de
+              vulnerabilidades y cumplimiento de PII.
+            </p>
+
+            <div class="project-tech">
+              <span>GitHub Actions</span>
+              <span>Snyk</span>
+              <span>Databricks</span>
+            </div>
+            <p class="project-result">
+              Aseguramiento de la integridad de datos en entornos financieros
+              AI-Native.
+            </p>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+
+                GitHub</a
+              >
+              <a href="#">
+                <i class="fas fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="img/proactive-observability-platform.avif"
+              alt="Monitoreo Inteligente AIOps"
+            />
+            <h3>Plataforma de Observabilidad Proactiva</h3>
+
+            <p>
+              Implementación de un stack de monitoreo avanzado que utiliza
+              aprendizaje automático para la detección de anomalías en el
+              tráfico de red y consumo de recursos.
+            </p>
+
+            <div class="project-tech">
+              <span>Prometheus</span>
+              <span>Grafana</span>
+              <span>ELK Stack</span>
+            </div>
+
+            <p class="project-result">
+              Reducción del 30% en el tiempo de detección de incidentes mediante
+              alertas predictivas.
+            </p>
+
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Demo</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="img/finops-automation-framework.avif"
+              alt="Optimización de costos Cloud"
+            />
+            <h3>Framework de Automatización FinOps</h3>
+
+            <p>
+              Desarrollo de scripts de automatización para el apagado programado
+              de recursos no críticos y migración a instancias Spot en entornos
+              de desarrollo.
+            </p>
+
+            <div class="project-tech">
+              <span>AWS Lambda</span>
+              <span>Python</span>
+              <span>Terraform</span>
+            </div>
+
+            <p class="project-result">
+              Ahorro mensual del 25% en la factura de servicios cloud sin
+              afectar la productividad del equipo.
+            </p>
+
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Demo</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="img/global-low-latency-deployment.avif"
+              alt="Despliegue Multi-región"
+            />
+            <h3>Despliegue Global con Latencia Mínima</h3>
+
+            <p>
+              Configuración de infraestructura global distribuida en múltiples
+              regiones utilizando balanceo de carga basado en geolocalización
+              para servicios de streaming.
+            </p>
+
+            <div class="project-tech">
+              <span>GCP Cloud CDN</span>
+              <span>Ansible</span>
+              <span>Terraform</span>
+            </div>
+
+            <p class="project-result">
+              Mejora del 45% en la velocidad de carga para usuarios
+              internacionales y redundancia total ante caídas regionales.
+            </p>
+
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Demo</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="experience">
+        <h2>Trayectoria y Resultados de Impacto</h2>
+        <div class="timeline">
+          <article class="job">
+            <span class="timeline-date">2024 - Presente</span>
+
+            <h3>Cloud DevOps Engineer</h3>
+            <h4>Proyecto de Infraestructura Crítica</h4>
+            <p class="job-description">
+              Responsable de diseñar y mantener la arquitectura en la nube para
+              aplicaciones de alta disponibilidad, asegurando estándares de
+              gobernanza y seguridad.
+            </p>
+
+            <ul class="achievements">
+              <li>
+                <strong>Automatización con IaC:</strong> Implementé el 100% de
+                la infraestructura mediante Terraform, reduciendo los errores de
+                configuración manual en un 40%.
+              </li>
+              <li>
+                <strong>Optimización CI/CD:</strong> Diseñé pipelines de entrega
+                continua (Jenkins/GitHub Actions) que aceleraron el tiempo de
+                despliegue de software en un 25%.
+              </li>
+              <li>
+                <strong>Seguridad Integrada:</strong> Configuré mecanismos de
+                control de acceso y autenticación empresarial para cumplir con
+                estándares de auditoría.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <span class="timeline-date">2023 - 2024</span>
+
+            <h3>Especialista en MLOps</h3>
+            <h4>AI Integration Team</h4>
+            <p class="job-description">
+              Lideré el despliegue y mantenimiento de servicios basados en IA y
+              Machine Learning, enfocándome en la resiliencia del sistema.
+            </p>
+
+            <ul class="achievements">
+              <li>
+                <strong>Alta Disponibilidad (99.999%):</strong> Implementé
+                estrategias de despliegue "zero-downtime" para servicios de IA a
+                gran escala.
+              </li>
+              <li>
+                <strong>Escalabilidad de Modelos:</strong> Gestioné clústeres de
+                Kubernetes para el entrenamiento y servicio de modelos,
+                utilizando AWS SageMaker y Bedrock.
+              </li>
+              <li>
+                <strong>Observabilidad Proactiva:</strong> Automaticé métricas
+                de monitoreo con Prometheus y Grafana, identificando cuellos de
+                botella antes de afectar al usuario final.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <span class="timeline-date">2022 - 2023</span>
+
+            <h3>Infrastructure Engineer</h3>
+            <h4>Global Delivery Platform</h4>
+            <p class="job-description">
+              Operé infraestructuras de alto tráfico en el "Edge tier",
+              optimizando el enrutamiento y la resiliencia de datos globales.
+            </p>
+
+            <ul class="achievements">
+              <li>
+                <strong>Rendimiento a Escala:</strong> Configuré sistemas de
+                balanceo de carga (HAProxy/NGINX) para sostener millones de
+                solicitudes por segundo.
+              </li>
+              <li>
+                <strong>Automatización del Edge:</strong> Creé patrones de
+                infraestructura repetibles utilizando Ansible para despliegues
+                multi-nube (GCP/AWS).
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>¿Listo para colaborar?</h2>
+        <p>
+          Estoy siempre abierto a nuevos retos en infraestructura,
+          automatización y plataformas de IA.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:tu.email@email.com" class="btn">
+            <i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="https://linkedin.com/in/tuusuario" target="_blank">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://github.com/tuusuario" target="_blank">
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+
+        <div class="cv-download">
+          <p>
+            ¿Quieres conocer más detalles?
+            <a href="" download>Descarga mi CV aquí</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Harold Herrera. Todos los derechos reservados.</p>
+      <p>Cloud Platform & AI Infrastructure Engineer</p>
+    </footer>
+    <script src="menu-button.js"></script>
+  </body>
 </html>
